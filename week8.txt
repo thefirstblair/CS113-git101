@@ -1,0 +1,47 @@
+สรุป Week 8
+ 
+ 1.Linklist  โครงสร้างข้อมูลถูกออกแบบใช้เก็บข้อมูล ข้อมูลแต่ละตัวเชื่อมเป็นสาย
+
+ 2.Structure  โครงสร้างข้อมูที่รวบรวมตัวแปรเก็บข้อมูลที่สัมพันธ์กัน
+ ex:
+
+ struct student{
+     char idStudent[13];
+     char nameStudent[35];
+     int ageStudent;
+ }
+
+ 2.1 ประกาศตัวแปร Structure
+ ex:
+
+ struct student std;
+ printf("%s\n", std.nameStudent)
+
+ std เป็นตัวแปรที่มีโครงสร้างตาม struct student (สามารถดเข้าถึงสมาชิกได้ โดยใช้ ".")
+
+ 2.2 ประกาศตัวแปร Structure พร้อมกำหนดค่า
+ ex:
+
+ struct student other_std = {"6210450075", "Thanyatorn krikan", 19};
+
+ 2.3 pointer ไปยัง Structure เข้าถึงสมาขิกแต่ละฟิลด์ผ่านตัวแปร pointer
+ ex:
+
+ struct student std, *p_std;
+
+ p_std =&std;
+ printf("%s\n",(*p_std).nameStudent);
+ (*p_std).age =22;
+
+2.4 typedef กำหนดประเภทข้อมูลโดยใช้ typedef
+ex:
+
+typedef student{
+    char idStudent[13];
+    char nameStudent[35];
+    int ageStudent;
+}Student;
+
+2.5 Self-Referential Structures เป็นโครงสร้างที่ออกแบบเพื่อจัดการ Linklist 
+-มักจะใช้คำว่า node ในการอ้างถึงข้อมูล 1 หน่วย
+-----------------------------------------------------------------------
