@@ -1,5 +1,7 @@
 สรุป Week 4
 
+เรื่อง Functions and Program Structure 1
+
 1. การนิยามฟังก์ชัน
 ex : int NameFunction(รับค่าอะไร)
 สามารถละชื่อตัวแปรได้ แต่ห้ามละค่า
