@@ -1,5 +1,7 @@
 สรุป Week 7
 
+เรื่อง Pointers และ Dynamic Memory Allocation 
+
 1. Pointer and Addresses
 ex :
 
