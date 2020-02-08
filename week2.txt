@@ -1,0 +1,68 @@
+สรุป Week 2
+
+1. ชื่อตัวแปร
+- ตัวอักษรตัวแรกของตัวแปรต้องเป็น อักขระ เท่านั้น
+- เครื่องหมาย " _ " นับว่าเป็นอักขระ
+- อักขระตัวใหญ่ ตัวเล็กถือว่าเป็นอักขระที่ต่างกัน
+- ใช้ชื่อตัวแปรซ้ำกับ keyword ในภาษาซีไม่ได้ เช่น int,float เป็นต้น
+- ควรตั้งชื่อให้สอดคล้อง
+ตัวอย่าง : bubble_milktea, bobaprice
+
+2. ประเภทของข้อมูล
+เลขจำนวนเต็ม : char(1ไบท์), int(4ไบท์)
+เลขจำนวนจริง : float(4ไบท์), double(8ไบท์)
+keyword "short" & "long" ใช้กับตัวแปรจำนวนเต็มไว้ลดและเพิ่มพื้นที่จัดเก็บข้อมูล
+keyword "signed" & "unsigned" ใช้กับตัวแปรจำนวนเต็ม ทำให้สามารถเก็บค่าที่มีเครื่องหมาย +,- ได้ และ สามารถทำให้เก็บค่าที่มีเครื่องหมาย + ได้ ตามลำดับ
+keyword sizeof ใช้ตรวจสอบขนาดตัวแปร
+
+3.ค่าคงที่ 
+คือ ค่าที่เปลี่ยนแปลงค่าไม่ได้ มีทั้ง จำนวนเต็ม จำนวนจริง ตัวอักษร สตริง
+
+4. การประกาศตัวแปร
+ตัวแปรในภาษาซีต้องประกาศไว้บนสุดเสมอว่าอะไรเป็นอะไร
+เช่น 
+int a,b;
+float n;
+
+4.1 printf()
+%d ใช้กับ int
+%f ใช้กับ float
+%c ใช้กับ char
+%s ใช้กับ char string
+
+ุ4.2 การรับ input & output
+- getchar() รับอักขระเดียว
+- putchar() ปริ้นท์ค่า char
+- EOF คือ end-of-file ฟังก์ชัน getchar() จะส่งค่ากลับเป็น EOF เมื่ออักขระที่ถูกส่งเข้ามาหมดแล้ว
+
+5. Arithmetic Operators
+- +, -, *, /, %
+- % ใช้กับตัวแปรจำนวนจริงไม่ได้
+
+6. Relational Operators และ Logical Operators
+Relational Operators :
+>, >=, <, <=
+==, !=
+Logical Operators :
+&&, ||
+!
+หยุดเมื่อเป็น True or False
+
+7. Type Conversion
+
+8.  Increment and Decrement Operators
+n++, ++n 
+n--, --n
+ทั้งหมดต่างกัน
+
+9. Bitwise Operators
+& (AND), |(OR), ^ exclusive OR, << left shift, >> right shift, ~ one's complement (unary)
+
+10. Assignment Operators
+11. Conditional Expression
+12. Precedence and Order of Evaluation
+-----------------------------------------------------------------------
+ึ
+
+
+
