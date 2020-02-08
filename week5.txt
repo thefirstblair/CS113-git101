@@ -1,5 +1,7 @@
 สรุป Week 5
 
+เรื่อง Functions and Program Structure 2
+
 1. Scope Rules (ขอบเขตและช่วงชีวิตของตัวแปร)
 - ตัวแปร Local ใช้แค่ในฟังก์ชั่น
 - ตัวแปร Global ใช้ทั้งหมด
