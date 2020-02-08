@@ -1,0 +1,40 @@
+สรุป Week 3
+
+1. If else, Else If
+
+2. Switch Case : จะทำงานในแต่ละเคสไปเรื่อยๆหากตรงเคสนั้นๆ ต้องมี break เพื่อให้หยุดการทำงาน
+
+    while ((ch=getchar()) != EOF) {
+       switch (ch) {
+          case '0': case '1': case '2': case '3': 
+          case '4': case '5': case '6': case '7':
+          case '8': case '9':
+             n_digits++;
+             break;
+          default: 
+             n_non_digits++;
+             break;
+       }   
+    }
+มีหรือไม่มี default ก็ได้
+
+3. while () กำหนดหยุดลูปได้เลย
+4. for (กำหนดค่าเริ่มต้น; กำหนดลูปจนถึงเท่าไหร่; กำหนดค่า ++)
+ถ้า for (;;) {
+       ...
+    }
+    จะเป็น "infinite" loop
+5. loop do while
+
+    do {
+       statement
+    } while (expre:L............................ssion);
+
+การวนลูปจะอยู่ข้างล่างนอกนั้นเหมือน while,for
+
+ุ6. break หยุดการทำงานไปทำนอกลูปต่อ, continue เริ่มลูปใหม่เลย
+-----------------------------------------------------------------------
+ 
+
+
+
